@@ -1,0 +1,43 @@
+2025-05-26 11:03:30.086 [info] (Client) Pylance async client (2025.5.1) started with python extension (2025.6.1)
+2025-05-26 11:03:30.619 [info] [Info  - 11:03:30] (10038) Server root directory: file:///root/.vscode/extensions/ms-python.vscode-pylance-2025.5.1/dist
+2025-05-26 11:03:30.620 [info] [Info  - 11:03:30] (10038) Pylance language server 2025.5.1 (pyright version 1.1.400, commit b962ffc2) starting
+2025-05-26 11:03:30.620 [info] [Info  - 11:03:30] (10038) Starting service instance "ML" for workspace "/root/Desktop/ML"
+2025-05-26 11:03:30.686 [info] [Info  - 11:03:30] (10038) Setting environmentName for service "ML": "3.13.2 (global)"
+2025-05-26 11:03:30.686 [info] [Info  - 11:03:30] (10038) Setting pythonPath for service "ML": "/bin/python"
+2025-05-26 11:03:30.686 [info] [Info  - 11:03:30] (10038) No include entries specified; assuming /root/Desktop/ML
+2025-05-26 11:03:30.687 [info] [Info  - 11:03:30] (10038) Auto-excluding **/node_modules
+2025-05-26 11:03:30.687 [info] [Info  - 11:03:30] (10038) Auto-excluding **/__pycache__
+2025-05-26 11:03:30.687 [info] [Info  - 11:03:30] (10038) Auto-excluding **/.*
+2025-05-26 11:03:30.712 [info] [Info  - 11:03:30] (10038) Assuming Python version 3.13.2.final.0
+2025-05-26 11:03:31.167 [info] [Info  - 11:03:31] (10038) Found 1 source file
+2025-05-26 11:03:31.198 [info] [Info  - 11:03:31] (10038) Setting environmentName for service "ML": "3.13.2 (global)"
+2025-05-26 11:03:31.198 [info] [Info  - 11:03:31] (10038) Setting pythonPath for service "ML": "/bin/python"
+2025-05-26 11:03:31.198 [info] [Info  - 11:03:31] (10038) No include entries specified; assuming /root/Desktop/ML
+2025-05-26 11:03:31.198 [info] [Info  - 11:03:31] (10038) Auto-excluding **/node_modules
+2025-05-26 11:03:31.198 [info] [Info  - 11:03:31] (10038) Auto-excluding **/__pycache__
+2025-05-26 11:03:31.198 [info] [Info  - 11:03:31] (10038) Auto-excluding **/.*
+2025-05-26 11:03:31.233 [info] [Info  - 11:03:31] (10038) Assuming Python version 3.13.2.final.0
+2025-05-26 11:03:31.543 [info] [Info  - 11:03:31] (10038) Found 1 source file
+2025-05-26 11:03:32.015 [info] [Info  - 11:03:32] (10038) BG: Priority queue background worker(2) root directory: file:///root/.vscode/extensions/ms-python.vscode-pylance-2025.5.1/dist
+2025-05-26 11:03:32.015 [info] [Info  - 11:03:32] (10038) BG: Priority queue background worker(2) started
+2025-05-26 11:03:32.332 [info] [Info  - 11:03:32] (10038) BG: Indexer background runner(3) root directory: file:///root/.vscode/extensions/ms-python.vscode-pylance-2025.5.1/dist (index)
+2025-05-26 11:03:32.332 [info] [Info  - 11:03:32] (10038) BG: Indexing(3) started
+2025-05-26 11:03:34.133 [info] [Info  - 11:03:34] (10038) Starting service instance "<default>" for workspace ""
+2025-05-26 11:03:34.149 [info] [Info  - 11:03:34] (10038) Setting environmentName for service "<default>": "3.13.2 (global)"
+2025-05-26 11:03:34.149 [info] [Info  - 11:03:34] (10038) Setting pythonPath for service "<default>": "/bin/python"
+2025-05-26 11:03:34.149 [info] [Info  - 11:03:34] (10038) No include entries specified; assuming /<default workspace root>
+2025-05-26 11:03:34.149 [info] [Info  - 11:03:34] (10038) Auto-excluding **/node_modules
+2025-05-26 11:03:34.149 [info] [Info  - 11:03:34] (10038) Auto-excluding **/__pycache__
+2025-05-26 11:03:34.149 [info] [Info  - 11:03:34] (10038) Auto-excluding **/.*
+2025-05-26 11:03:34.173 [info] [Info  - 11:03:34] (10038) Assuming Python version 3.13.2.final.0
+2025-05-26 11:03:34.439 [info] [Error - 11:03:34] (10038) File or directory "/<default workspace root>" does not exist.
+2025-05-26 11:03:34.439 [info] [Info  - 11:03:34] (10038) No source files found.
+2025-05-26 11:03:34.615 [info] [Info  - 11:03:34] (10038) BG: scanned(3) 808 files over 1 exec env
+2025-05-26 11:03:34.891 [info] [Info  - 11:03:34] (10038) BG: Priority queue background worker(5) root directory: file:///root/.vscode/extensions/ms-python.vscode-pylance-2025.5.1/dist
+2025-05-26 11:03:34.891 [info] [Info  - 11:03:34] (10038) BG: Priority queue background worker(5) started
+2025-05-26 11:03:39.744 [info] [Info  - 11:03:39] (10038) BG: [IDX(3)] Long operation: index execution environment file:///root/Desktop/ML (4638ms)
+2025-05-26 11:03:39.779 [info] [Info  - 11:03:39] (10038) BG: [IDX(3)] Long operation: index packages file:///root/Desktop/ML (4873ms)
+2025-05-26 11:03:39.779 [info] [Info  - 11:03:39] (10038) BG: indexed(3) 808 files over 1 exec env
+2025-05-26 11:03:40.086 [info] [Info  - 11:03:40] (10038) BG: Indexing finished(3).
+2025-05-26 11:12:15.271 [info] [Info  - 11:12:15] (10038) Found 2 source files
+2025-05-26 11:21:01.272 [info] [Info  - 11:21:01] (10038) Found 3 source files

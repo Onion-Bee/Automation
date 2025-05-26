@@ -1,0 +1,143 @@
+2025-05-26 11:03:28.085 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-05-26 11:03:28.085 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-05-26 11:03:28.100 [warning] Dir "/root/Desktop/ML/.pixi/envs" is not watchable (directory does not exist)
+2025-05-26 11:03:28.135 [info] Starting Environment refresh
+2025-05-26 11:03:28.135 [info] Searching for interpreters in posix paths locator
+2025-05-26 11:03:28.140 [info] Searching for pyenv environments
+2025-05-26 11:03:28.140 [info] Searching for conda environments
+2025-05-26 11:03:28.141 [info] Searching for global virtual environments
+2025-05-26 11:03:28.141 [info] Searching for custom virtual environments
+2025-05-26 11:03:28.148 [info] pyenv is not installed
+2025-05-26 11:03:28.148 [info] Finished searching for pyenv environments: 13 milliseconds
+2025-05-26 11:03:28.149 [info] Finished searching for custom virtual envs: 13 milliseconds
+2025-05-26 11:03:28.156 [info] > conda info --json
+2025-05-26 11:03:28.164 [info] > hatch env show --json
+2025-05-26 11:03:28.164 [info] cwd: .
+2025-05-26 11:03:28.175 [info] > pyenv which python
+2025-05-26 11:03:28.175 [info] cwd: .
+2025-05-26 11:03:28.175 [info] Finished searching for global virtual envs: 39 milliseconds
+2025-05-26 11:03:28.186 [info] Found: /bin/python --> /bin/python3.13
+2025-05-26 11:03:28.186 [info] Found: /bin/python2 --> /bin/python2.7
+2025-05-26 11:03:28.186 [info] Found: /bin/python2.7 --> /bin/python2.7
+2025-05-26 11:03:28.187 [info] Found: /bin/python3 --> /bin/python3.13
+2025-05-26 11:03:28.188 [info] Found: /bin/python3.12 --> /bin/python3.12
+2025-05-26 11:03:28.188 [info] Found: /bin/python3.13 --> /bin/python3.13
+2025-05-26 11:03:28.200 [info] Found: /usr/bin/python --> /usr/bin/python3.13
+2025-05-26 11:03:28.200 [info] Found: /usr/bin/python2 --> /usr/bin/python2.7
+2025-05-26 11:03:28.200 [info] Found: /usr/bin/python2.7 --> /usr/bin/python2.7
+2025-05-26 11:03:28.200 [info] Found: /usr/bin/python3 --> /usr/bin/python3.13
+2025-05-26 11:03:28.200 [info] Found: /usr/bin/python3.12 --> /usr/bin/python3.12
+2025-05-26 11:03:28.200 [info] Found: /usr/bin/python3.13 --> /usr/bin/python3.13
+2025-05-26 11:03:28.746 [info] > /bin/python -I ~/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/interpreterInfo.py
+2025-05-26 11:03:28.757 [info] > /bin/python2 -I ~/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/interpreterInfo.py
+2025-05-26 11:03:28.770 [info] > /bin/python3.12 -I ~/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/interpreterInfo.py
+2025-05-26 11:03:28.771 [warning] [Error: Command failed: /bin/python2 -I /root/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/get_output_via_markers.py /root/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/interpreterInfo.py
+Unknown option: -I
+usage: /bin/python2 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:423:12)
+	at ChildProcess.emit (node:events:530:35)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:518:28)
+	at Pipe.<anonymous> (node:net:343:12)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/bin/python2 -I /root/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/get_output_via_markers.py /root/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/interpreterInfo.py'
+}
+2025-05-26 11:03:28.771 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2025-05-26 11:03:28.779 [info] > /bin/python2 ~/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/interpreterInfo.py
+2025-05-26 11:03:28.793 [info] > /usr/bin/python -I ~/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/interpreterInfo.py
+2025-05-26 11:03:28.800 [info] Finished searching for interpreters in posix paths locator: 666 milliseconds
+2025-05-26 11:03:28.807 [info] Environments refresh paths discovered (event): 673 milliseconds
+2025-05-26 11:03:28.807 [info] Environments refresh paths discovered: 674 milliseconds
+2025-05-26 11:03:28.837 [info] > /usr/bin/python2 -I ~/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/interpreterInfo.py
+2025-05-26 11:03:28.848 [info] > /usr/bin/python3.12 -I ~/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/interpreterInfo.py
+2025-05-26 11:03:28.850 [warning] [Error: Command failed: /usr/bin/python2 -I /root/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/get_output_via_markers.py /root/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/interpreterInfo.py
+Unknown option: -I
+usage: /usr/bin/python2 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:423:12)
+	at ChildProcess.emit (node:events:530:35)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/usr/bin/python2 -I /root/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/get_output_via_markers.py /root/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/interpreterInfo.py'
+}
+2025-05-26 11:03:28.850 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2025-05-26 11:03:28.860 [info] > /usr/bin/python2 ~/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/interpreterInfo.py
+2025-05-26 11:03:28.895 [info] Environments refresh finished (event): 761 milliseconds
+2025-05-26 11:03:28.903 [info] Environment refresh took 770 milliseconds
+2025-05-26 11:03:28.909 [info] Python interpreter path: /bin/python
+2025-05-26 11:03:30.636 [info] Starting Pylance language server.
+2025-05-26 11:04:04.868 [info] Discover tests for workspace name: undefined - uri: /root/Desktop/ML/~/.vscode-root/User/settings.json
+2025-05-26 11:04:06.519 [info] Discover tests for workspace name: undefined - uri: /root/Desktop/ML/~/.vscode-root/User/settings.json
+2025-05-26 11:05:13.756 [info] Discover tests for workspace name: ML - uri: /root/Desktop/ML/cleaner.py
+2025-05-26 11:05:25.383 [info] Discover tests for workspace name: ML - uri: /root/Desktop/ML/cleaner.py
+2025-05-26 11:05:26.462 [info] Discover tests for workspace name: ML - uri: /root/Desktop/ML/cleaner.py
+2025-05-26 11:12:18.003 [info] Discover tests for workspace name: ML - uri: /root/Desktop/ML/messageGenerator.py
+2025-05-26 11:13:56.792 [info] Discover tests for workspace name: ML - uri: /root/Desktop/ML/messageGenerator.py
+2025-05-26 11:13:57.209 [info] Discover tests for workspace name: ML - uri: /root/Desktop/ML/messageGenerator.py
+2025-05-26 11:15:55.058 [info] Discover tests for workspace name: ML - uri: /root/Desktop/ML/messageGenerator.py
+2025-05-26 11:15:55.311 [info] Discover tests for workspace name: ML - uri: /root/Desktop/ML/messageGenerator.py
+2025-05-26 11:15:57.533 [info] Discover tests for workspace name: ML - uri: /root/Desktop/ML/messageGenerator.py
+2025-05-26 11:21:03.604 [info] Discover tests for workspace name: ML - uri: /root/Desktop/ML/sendEmail.py
+2025-05-26 11:21:44.438 [info] Discover tests for workspace name: ML - uri: /root/Desktop/ML/sendEmail.py
+2025-05-26 11:21:56.760 [info] Discover tests for workspace name: ML - uri: /root/Desktop/ML/sendEmail.py
+2025-05-26 11:21:58.348 [info] Discover tests for workspace name: ML - uri: /root/Desktop/ML/sendEmail.py
+2025-05-26 11:22:25.487 [info] Discover tests for workspace name: ML - uri: /root/Desktop/ML/sendEmail.py
+2025-05-26 11:22:48.216 [info] Discover tests for workspace name: ML - uri: /root/Desktop/ML/sendEmail.py
+2025-05-26 11:22:55.296 [info] Discover tests for workspace name: ML - uri: /root/Desktop/ML/sendEmail.py
+2025-05-26 11:23:01.148 [info] > /bin/python ~/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/normalizeSelection.py
+2025-05-26 11:23:01.575 [info] Send text to terminal: /bin/python
+2025-05-26 11:23:01.674 [info] Send text to terminal: [200~def get_smtp_server():
+    # Use env vars
+    smtp_host = os.getenv('SMTP_HOST', 'smtp.gmail.com')
+    smtp_port = int(os.getenv('SMTP_PORT', 465))
+    user = os.getenv('EMAIL_USER')
+    password = os.getenv('EMAIL_PASS')
+    if not user or not password:
+        raise EnvironmentError('EMAIL_USER and EMAIL_PASS must be set as environment variables')
+    # Establish a secure SSL connection
+    server = smtplib.SMTP_SSL(smtp_host, smtp_port)
+    server.login(user, password)
+    return server, user
+[201~
+2025-05-26 11:23:04.735 [info] > /bin/python ~/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/normalizeSelection.py
+2025-05-26 11:23:04.772 [info] Send text to terminal: [200~def send_emails(csv_path='messages_output.csv', subject='Hello from Our Team'):    
+    df = load_messages(csv_path)
+    server, sender_email = get_smtp_server()
+    for _, row in df.iterrows():
+        recipient = row['email']
+        body = row['message']
+        # Create MIME message
+        msg = MIMEMultipart()
+        msg['From'] = sender_email
+        msg['To'] = recipient
+        msg['Subject'] = subject
+        # Attach the text body
+        msg.attach(MIMEText(body, 'plain'))
+        try:
+            server.sendmail(sender_email, recipient, msg.as_string())
+            print(f"Email sent to {recipient}")
+        except Exception as e:
+            print(f"Failed to send to {recipient}: {e}")
+    server.quit()
+[201~
+2025-05-26 11:23:42.355 [info] Discover tests for workspace name: ML - uri: /root/Desktop/ML/sendEmail.py
+2025-05-26 11:23:43.455 [info] Discover tests for workspace name: ML - uri: /root/Desktop/ML/sendEmail.py
+2025-05-26 11:23:45.429 [info] Discover tests for workspace name: ML - uri: /root/Desktop/ML/sendEmail.py
+2025-05-26 11:23:49.700 [info] Discover tests for workspace name: ML - uri: /root/Desktop/ML/sendEmail.py
+2025-05-26 11:23:52.497 [info] Discover tests for workspace name: ML - uri: /root/Desktop/ML/sendEmail.py
+2025-05-26 11:23:56.138 [info] Discover tests for workspace name: ML - uri: /root/Desktop/ML/sendEmail.py
+2025-05-26 11:24:01.323 [info] Discover tests for workspace name: ML - uri: /root/Desktop/ML/sendEmail.py
+2025-05-26 11:25:10.317 [info] Discover tests for workspace name: ML - uri: /root/Desktop/ML/sendEmail.py
