@@ -1,17 +1,13 @@
-# clean_data.py
 # Script to clean event registration data
 
 import pandas as pd
 
-# 1. Load the raw data
-# Replace 'raw_input.csv' with the path to your source file
+#Load the raw data
 df = pd.read_csv('data.csv')
 
-# 2. Remove duplicate rows based on all columns
-# This ensures we only keep unique registrations
+# Remove duplicate rows based on all columns
 df = df.drop_duplicates()
 
-# 3. Normalize `has_joined_event` to boolean
 # Convert variations of Yes/No (case-insensitive) to True/False
 mapping = {
     'yes': True,
@@ -28,7 +24,7 @@ def normalize_joined(val):
 
 df['has_joined_event'] = df['has_joined_event'].apply(normalize_joined)
 
-# 4. Flag missing or incomplete LinkedIn profiles
+# Flag missing or incomplete LinkedIn profiles
 # We consider a profile incomplete if the field is empty or does not contain 'linkedin.com'
 
 def flag_linkedin(profile):
@@ -39,7 +35,7 @@ def flag_linkedin(profile):
 # Create a new boolean column `linkedin_missing_or_incomplete`
 df['linkedin_missing_or_incomplete'] = df['What is your LinkedIn profile?'].apply(flag_linkedin)
 
-# 5. Flag blank job titles
+# Flag blank job titles
 # Blank means NaN or empty string after stripping whitespace
 
 def flag_job_missing(title):
@@ -50,7 +46,7 @@ def flag_job_missing(title):
 # Create a new boolean column `job_title_missing`
 df['job_title_missing'] = df['Job Title'].apply(flag_job_missing)
 
-# 6. Save the cleaned dataframe to a new CSV
+# Save the cleaned dataframe to a new CSV
 output_file = 'cleaned_output.csv'
 df.to_csv(output_file, index=False)
 
