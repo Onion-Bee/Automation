@@ -1,7 +1,0 @@
-Logger Init
-Initialization complete.
-Cached supported calls version 1.5
-Loaded supported calls (Version 1.5)
-Batch of 10 Total time: 823ms (Avg. Per Call: 82ms)
-Batch of 2 Total time: 954ms (Avg. Per Call: 477ms)
-Batch of 9 Total time: 976ms (Avg. Per Call: 108ms)
